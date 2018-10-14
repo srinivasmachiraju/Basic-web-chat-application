@@ -1,0 +1,157 @@
+html {
+  height: 100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  font-family:Vardana;
+}
+body{
+  height: 100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  border-top:1px solid transparent;
+  overflow: hidden;
+}
+
+#login-area{
+  height: 300px;
+  border:1px solid #000;
+  width: 500px;
+  margin:0 auto;
+  margin-top: 150px;
+}
+
+#login-area #login-text{
+  width=100%;
+  margin-top: 70px;
+  text-align: center;
+
+}
+
+#login-area #login-form-area{
+  width=100%;
+  margin-top:40px;
+  text-align: center;
+
+}
+
+#login-area #login-form-area #login-form #username{
+  height:50px;
+  width:300px;
+  padding :0px 5px;
+  font-size:26px;
+  outline: none;
+  outline-offset: 0;
+
+
+}
+#login-area #login-form-area #login-form #login-submit{
+  font-size:26px;
+  background-color:transparent;
+  border: 1px solid #000;
+  height=52px;
+  width: 100px
+  cursor:pointer;
+  outline: none;
+  outline-offset: 0;
+}
+#login-area #login-form-area #login-form #login-submit:hover{
+  color:#FFF;
+  background-color: #000;
+}
+
+#chat-area{
+  display:none;
+  height:100%;
+  width: 100%;
+}
+
+#chat-area #users-area{
+  height:100%;
+  width: 20%;
+  background-color:#DDD;
+  border-top: 1px solid transparent;
+  border-right: 5px solid #000;
+  float: left;
+}
+#chat-area #users-area #online-users-text{
+  margin:0;
+  padding:0;
+  margin-top:100px;
+  text-align: center;
+}
+
+#chat-area #users-area #online-users{
+  margin-top:50;
+}
+#chat-area #users-area #online-users #users{
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+#chat-area #users-area #online-users #users li{
+  list-style-type:none;
+  font-weight:bold;
+  margin-top: 10px;
+}
+
+#chat-area #message-area{
+  height:100%;
+  width:calc(80% - 5px);
+  background-color: #AAA;
+  float: right;
+}
+#chat-area #message-area #display-message-area{
+  width:100%;
+  height:90%;
+  border-top:1px solid transparent;
+  font-size: 26px;
+}
+#chat-area #message-area #display-message-area #messages{
+  margin: 0;
+  padding: 0;
+}
+
+#chat-area #message-area #display-message-area #messages li{
+ list-style-type: none;
+ padding:10px 10px;
+}
+#chat-area #message-area #display-message-area #messages li:nth-child(odd){
+  background-color:#EEE;
+}
+
+#chat-area #message-area  #message-form-area{
+  width:100%;
+  height:10%;
+  border-top:5px solid #000;
+}
+
+#chat-area #message-area  #message-form-area #message-form #message {
+  height:60px;
+  width: 85%;
+  font-size:26px;
+  padding: 0px 5px;
+  outline: :none;
+  outline-offset: 0;
+  /*color:#EEE;*/
+  border:0;
+  border-right:5px solid #000;
+}
+#chat-area #message-area  #message-form-area #message-form #message:placeholder{
+color:#EEE;
+}
+
+
+#chat-area #message-area #message-form-area #message-form #message-submit{
+height: 50px;
+width:10%;
+font-size:20px;
+cursor:pointer;
+text-align: center;
+}
+#chat-area #message-area #message-form-area #message-form #message-submit:hover {
+color: #FFF;
+background-color: #000;
+
+}
